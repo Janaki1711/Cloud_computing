@@ -259,23 +259,7 @@ git push
 
 ---
 
-## 11. Repository Structure & Reproduction
-
-```
-Experiment-2-VM-vs-Container-Memory/
-â”œâ”€â”€ README.md                            # This report
-â”œâ”€â”€ docker/
-â”‚   â””â”€â”€ Dockerfile                       # vm-container-benchmark image
-â”œâ”€â”€ images/
-â”‚   â”œâ”€â”€ vm-memory-benchmark.png          # VM Sysbench screenshot
-â”‚   â”œâ”€â”€ container-memory-benchmark.png   # Container Sysbench screenshot
-â”‚   â””â”€â”€ memory-comparison.png            # Comparison chart
-â”œâ”€â”€ scripts/
-â”‚   â”œâ”€â”€ benchmark.sh                     # 10x repeated runs (VM + container)
-â”‚   â”œâ”€â”€ parse_sysbench.py                # Mean / stddev calculator
-â”‚   â””â”€â”€ generate_plots.py                # Matplotlib chart generator
-â””â”€â”€ results/raw/                         # Raw outputs from repeated runs
-```
+## 11. Reproduction
 
 ### How to Reproduce
 
