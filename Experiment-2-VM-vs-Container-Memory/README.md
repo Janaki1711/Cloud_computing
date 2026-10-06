@@ -1,4 +1,4 @@
-﻿# Experiment 2 â€“ Memory Performance: Virtual Machine vs Docker Container
+﻿# Experiment 2  Memory Performance: Virtual Machine vs Docker Container
 
 [![Course](https://img.shields.io/badge/Course-Cloud%20Computing-blue.svg)](#)
 [![Environments](https://img.shields.io/badge/Environments-VMware%20VM%20%7C%20Docker%20Container-orange.svg)](#)
