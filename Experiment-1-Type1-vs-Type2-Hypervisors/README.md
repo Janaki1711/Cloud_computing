@@ -310,30 +310,7 @@ The empirical data demonstrates a clear performance superiority of **Proxmox VE 
 
 ---
 
-## 10. Repository Structure & Reproduction
-
-### Folder Layout
-
-```
-Cloud_computing/
-â”‚
-â”œâ”€â”€ README.md                                  # Main Project & Benchmark Report
-â”œâ”€â”€ LAB_REPORT.md                              # Formal Academic Lab Report Submission
-â”œâ”€â”€ Lab-Manual-Hypervisor-Performance-Analysis (1).docx  # Reference Lab Manual Document
-â”‚
-â”œâ”€â”€ images/                                    # Screenshots & Generated Charts
-â”‚   â”œâ”€â”€ 1.png                                  # Proxmox VE Sysbench Result Screenshot
-â”‚   â”œâ”€â”€ 2.png                                  # VMware Workstation Sysbench Result Screenshot
-â”‚   â”œâ”€â”€ events_per_second_comparison.png       # Throughput Comparison Graph
-â”‚   â”œâ”€â”€ latency_comparison.png                 # Latency Metrics Graph
-â”‚   â”œâ”€â”€ total_events_comparison.png            # Total Events Graph
-â”‚   â””â”€â”€ overall_performance_dashboard.png      # Multi-panel Dashboard
-â”‚
-â””â”€â”€ scripts/                                   # Automation & Plotting Scripts
-    â”œâ”€â”€ benchmark.sh                           # Sysbench Automation Script
-    â”œâ”€â”€ generate_plots.py                      # Matplotlib Visualization Generator
-    â””â”€â”€ parse_sysbench.py                      # Results Parser & Ratio Calculator
-```
+## 10. Reproduction
 
 ### How to Reproduce
 
