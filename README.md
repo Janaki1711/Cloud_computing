@@ -7,6 +7,7 @@
 | 3 | Kubernetes Intelligent Application Placement & Fault-Tolerant Distributed Storage (Pod Affinity & Anti-Affinity) | [Lab2](Lab2) |
 | 4 | Kubernetes Cluster Orchestration & Self-Healing | [Experiment-4-Kubernetes-Cluster](Experiment-4-Kubernetes-Cluster) |
 | 5 | Microservices Web Application & Kubernetes Resource Management | [Experiment-5-Kubernetes-Microservices](Experiment-5-Kubernetes-Microservices) |
+| 6 | Edge vs Cloud Microservices Deployment on Kubernetes | [Experiment-6-Edge-vs-Cloud-Deployment](Experiment-6-Edge-vs-Cloud-Deployment) |
 | — | Multi-Container Provisioning & Orchestration with Terraform and Docker | [Experiment-Terraform-Multi-Containers](Experiment-Terraform-Multi-Containers) |
 | — | Docker Containerization, Container Lifecycle Management, and Remote Registry Distribution | [docker](docker) |
 
