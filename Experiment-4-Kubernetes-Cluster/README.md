@@ -1,6 +1,7 @@
-# Kubernetes Multi-Node Cluster Orchestration, Workload Scheduling, Scaling, and Self-Healing on Windows
+# Experiment 4: Kubernetes Cluster Orchestration
 
 [![Course](https://img.shields.io/badge/Course-Cloud%20Computing-blue.svg)](#)
+[![Experiment](https://img.shields.io/badge/Experiment-Lab%204-purple.svg)](#)
 [![Cluster](https://img.shields.io/badge/Cluster-KinD%20(1%20Control%20%2B%202%20Workers)-orange.svg)](#)
 [![Orchestration](https://img.shields.io/badge/Orchestration-Kubernetes%20v1.37.0-326CE5.svg?logo=kubernetes&logoColor=white)](#)
 [![Workload](https://img.shields.io/badge/Workload-NGINX%20Web%20Server-009639.svg?logo=nginx&logoColor=white)](#)
@@ -357,7 +358,7 @@ Every pod receives its own routable IP within the cluster SDN, enabling flat, di
 ### Directory Structure
 
 ```text
-kubernetes-cluster/
+Experiment-4-Kubernetes-Cluster/
 ├── images/
 │   ├── k8s_nodes_docker_ps.png
 │   ├── k8s_pods_3replicas.png
@@ -366,8 +367,8 @@ kubernetes-cluster/
 │   ├── k8s_self_healing_healed.png
 │   └── k8s_wsl_status.png
 ├── kind-config.yaml
-├── Kubernetes_Lab_on_Windows_Manual.pdf
-├── Kubernetes_Cluster_Scheduling_and_Self_Healing_Report.docx
+├── Experiment_4_Kubernetes_Lab_on_Windows_Manual.pdf
+├── Experiment_4_Kubernetes_Cluster_Scheduling_and_Self_Healing_Report.docx
 └── README.md
 ```
 
@@ -375,7 +376,7 @@ kubernetes-cluster/
 
 ```powershell
 # 1. Navigate to the experiment directory
-cd kubernetes-cluster
+cd Experiment-4-Kubernetes-Cluster
 
 # 2. Provision the 3-node cluster using KinD
 kind create cluster --config kind-config.yaml
