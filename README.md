@@ -7,5 +7,6 @@
 | 3 | Kubernetes Intelligent Application Placement & Fault-Tolerant Distributed Storage (Pod Affinity & Anti-Affinity) | [Lab2](Lab2) |
 | — | Multi-Container Provisioning & Orchestration with Terraform and Docker | [Experiment-Terraform-Multi-Containers](Experiment-Terraform-Multi-Containers) |
 | — | Kubernetes Multi-Node Cluster Orchestration, Workload Scheduling, Scaling, and Self-Healing on Windows | [kubernetes-cluster](kubernetes-cluster) |
+| — | Docker Containerization, Container Lifecycle Management, and Remote Registry Distribution | [docker](docker) |
 
 Each folder contains its own README, screenshots/charts (`images/`) and scripts (`scripts/`).
